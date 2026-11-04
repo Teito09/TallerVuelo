@@ -1,0 +1,10 @@
+/bin/
+/target/
+/build/
+/out/
+*.class
+
+.classpath
+.project
+.settings/
+.factorypath

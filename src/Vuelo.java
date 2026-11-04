@@ -19,7 +19,7 @@ public class Vuelo {
         this.origen = origen;
         this.destino = destino;
         this.capacidadMaxima = capacidadMaxima;
-        // El vuelo crea sus propios asientos — composición
+        
         asientos = new Asiento[capacidadMaxima];
         for (int i = 0; i < capacidadMaxima; i++) {
             asientos[i] = new Asiento("A" + (i + 1));

@@ -2,6 +2,7 @@ public class Asiento {
 
     private String codigo;
     private boolean ocupado;
+    
     public Asiento(String codigo) {
         this.codigo = codigo;
         this.ocupado = false;
